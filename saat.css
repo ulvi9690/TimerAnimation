@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.saat {
+    width: 710px;
+    height: 713px;
+    border: 10px solid black;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+}
+.box {
+    width: 50px;
+    height: 53px;
+    background-color: black;
+    border-radius: 100%;
+    margin: 46% 0 0 328px;
+    position: absolute;
+    
+}
+
+.eqreb {
+    width: 15px;
+    height: 280px;
+    background-color: blue;
+    border: 5px solid black;
+    border-radius: 10px;
+    position: absolute;
+    left: 48%;
+    animation-name: saat;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: bottom;
+    bottom: 50%;
+    
+}
+.eqreb1 {
+   width: 18px;
+   height: 170px;
+   border: 5px solid black;
+   background-color: blue;
+   border-radius: 20px;
+   margin: 170px 0 0 340px;
+   position: absolute;
+   animation-name: eqreb1;
+   animation-duration: 360s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   transform-origin: bottom;
+   
+}
+@keyframes eqreb1 {
+    form {transform: rotateY(-0deg);
+    }
+    to {transform: rotate(360deg);
+    }
+}
+
+@keyframes saat {
+     form {transform: rotateY(-0deg);
+    }
+    to {transform: rotate(360deg);
+    }
+  
+}
+.x12 {
+    border: 2px solid black;
+    width: 3px;
+    height: 11px;
+    margin: 0% 0 45% 49.2%;
+    background-color: blue;
+    position: absolute;
+}
+
+.x6 {
+    border: 2px solid black;
+    width: 3px;
+    height: 11px;
+    margin: 98.8% 0 0% 49.2%;
+    background-color: blue;
+    position: absolute;
+}
+
+.x3 {
+    border: 2px solid black;
+    width: 11px;
+    height: 3px;
+    margin: 49.3% 0 0% 98%;
+    background-color: blue;
+    position: absolute;
+}
+
+.x9 {
+    border: 2px solid black;
+    width: 11px;
+    height: 3px;
+    margin: 49.3% 0% 0% 0%;
+    background-color: blue;
+    position: absolute;
+}
+
+.n12 {
+    margin: 2% 0 0% 39%;
+    font-size: 10em;
+    position: absolute;
+}
+
+.n3 {
+    margin: 38% 0 0% 86%;
+    font-size: 10em;
+    position: absolute;
+}
+
+.n6 {
+    margin: 77% 0 0% 44%;
+    font-size: 10em;
+    position: absolute;
+}
+
+.n9 {
+    margin: 38% 0% 0% 2.8%;
+    font-size: 10em;
+    position: absolute;
+}
